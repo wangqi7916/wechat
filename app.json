@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/adv/adv",
+    "pages/case/case",
+    "pages/product/product",
+    "pages/information/information",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "市场小程序",
+    "navigationBarTextStyle": "black"
+  }
+}

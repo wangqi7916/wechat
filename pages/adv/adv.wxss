@@ -1,0 +1,27 @@
+.main{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  background: #f4b230;
+}
+.img{
+  position:absolute;
+}
+
+.bg{
+  width:750rpx;
+  top:0;
+  left:0;
+}
+
+.scroll{
+  width:100%;
+  position:absolute;
+  top:170px;
+  left:41rpx;
+}
+
+.scroll image{
+  width:678rpx;
+  height:276rpx;
+}

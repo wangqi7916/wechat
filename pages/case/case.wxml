@@ -1,0 +1,12 @@
+<view class="main">
+  <image class="bg img" mode='widthFix' src="./image/caseBg.png"></image>
+  <view class="scroll">
+    <scroll-view scroll-y scroll-with-animation="true" style="height:{{clientHeight}}px">
+      <block wx:for="{{detail_links}}" wx:key="index">
+        <navigator url="../detail/detail?id={{index}}">
+          <image src="{{item}}"></image>
+        </navigator>
+      </block>
+    </scroll-view>
+  </view>
+</view>

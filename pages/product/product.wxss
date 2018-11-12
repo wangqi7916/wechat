@@ -1,0 +1,102 @@
+.main{
+  width:100%;
+}
+.swiper-container{
+  width:100%;
+  height:74rpx;
+  padding: 20rpx 0 12rpx 0;
+  border-bottom: 1px solid #e7e7e7;
+  text-align: center;
+  position: relative;
+}
+
+
+.swiper-item{
+  width:195rpx;
+  height: 74rpx;
+}
+.text{
+  width:195rpx;
+  height: 74rpx;
+  font-size:30rpx;
+  color:#e9e9e9;
+  line-height: 62rpx;
+}
+.active{
+  background-image: url(https://statich.yidianzixun.com/public/file/1541662646077/navBg.png);
+  background-size:100% 100%; 
+  color:#ffffff;
+}
+
+
+/*切换第二层*/
+.con{
+  width:750rpx;
+  height:400rpx;
+  position:relative;
+}
+.content{
+  width:750rpx;
+  height:400rpx;
+}
+.swiper-con{
+  width:750rpx;
+  height:400rpx;
+}
+
+.con .img{
+  width:15px;
+  height:32px; 
+  position:absolute;
+  top:50%;
+  margin-top:-16px;
+}
+.con .left{
+  left:70rpx;
+}
+.con .right{
+  right:70rpx;
+}
+.swiper-con image{
+  width:750rpx;
+  height:400rpx;
+}
+
+
+/*产品图片*/
+.content_img{
+  width:100%;
+  background-image: url(https://statich.yidianzixun.com/public/file/1541756454385/proBg.png);
+  background-size: 100% 100%;
+  position:relative;
+}
+
+.dots{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:20rpx;
+}
+.dot{
+  width:40rpx;
+  height:8rpx;
+  background:rgba(0,0,0,0.5);
+  margin-left:10rpx;
+  border-radius: 4rpx;
+}
+
+.activeIsTrue{
+  background:rgb(255,255,255);
+}
+
+.scroll{
+  padding-top:30px;
+}
+.content_img image{
+  width:600rpx;
+  margin:0 auto;
+  display: block;
+}

@@ -1,0 +1,11 @@
+<view class="main">
+  <image class="bg img" mode='widthFix' src="./image/advBg.png"></image>
+  <view class="scroll">
+    <scroll-view scroll-y scroll-with-animation="true" style="height:{{clientHeight}}px">
+      <image src="./image/advPic2.png"></image>
+      <image src="./image/advPic3.png"></image>
+      <image src="./image/advPic2.png"></image>
+      <image src="./image/advPic3.png"></image>
+    </scroll-view>
+  </view>
+</view>

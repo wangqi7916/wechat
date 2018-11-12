@@ -1,0 +1,93 @@
+.main{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  background: #0c84f3;
+}
+.img{
+  position:absolute;
+}
+
+.bg{
+  width:750rpx;
+  top:0;
+  left:0;
+}
+
+.form{
+  width:500rpx;
+  position:absolute;
+  left:50%;
+  margin-left:-250rpx;
+  top:444rpx;
+}
+
+.form .common{
+  margin-bottom:40rpx;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form .common text{
+  font-size:30rpx;
+  color:#ffffff;
+  width: 75rpx;
+  height:52rpx;
+  flex:0 0 75rpx;
+}
+
+.form .common input{
+  flex:1;
+  height:52rpx;
+  border-radius:12rpx;
+  background:#fff;
+  margin-left:52rpx;
+  text-align: center;
+  font-size:20rpx;
+  color:#565656;
+}
+
+.form .common .addressPicker{
+  flex:1;
+  height:52rpx;
+  border-radius:12rpx;
+  background:#fff;
+  margin-left:52rpx;
+}
+
+.form .common .addressPicker .picker{
+  text-align: center;
+  font-size:20rpx;
+  color:#565656;
+  height:52rpx;
+  line-height: 52rpx;
+}
+
+.button{
+  width:226rpx;
+  height:70rpx;
+  position:absolute;
+  top:840rpx;
+  left:250rpx;
+}
+
+.button image{
+  width:226rpx;
+  height:70rpx;
+}
+
+.logo{
+  width:165rpx;
+  height:39rpx;
+  position:absolute;
+  top:980rpx;
+  left:50%;
+  margin-left:-82rpx;
+}
+
+.logo image{
+  width:165rpx;
+  height:39rpx;
+}

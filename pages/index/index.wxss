@@ -1,0 +1,47 @@
+/**index.wxss**/
+.swiper-main{
+  position:relative;
+}
+.swiper-main,swiper,swiper-item,.slide-image{
+  width:750rpx;
+  height:360rpx;
+}
+
+.nav_button{
+  padding:100rpx 60rpx 100rpx 60rpx;
+}
+
+.dots{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  width:100%;
+  position:absolute;
+  left:0;
+  bottom:-40rpx;
+}
+
+.dot{
+  width:40rpx;
+  height:8rpx;
+  background:#000000;
+  margin-left:10rpx;
+  border-radius: 4rpx;
+}
+
+.activeIsTrue{
+  background:#dcdcdc;
+}
+
+.nav_option{
+  width:310rpx;
+  height:334rpx;
+  display: inline-block
+}
+.nav_option .button_image{
+  width:310rpx;
+  height:334rpx;
+}
+.active{
+  margin-left:10rpx;
+}

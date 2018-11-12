@@ -1,0 +1,29 @@
+<view class="main">
+  <image class="bg img" mode='widthFix' src="./image/informationBg.png"></image>
+  <view class="form">
+    <view class="name common">
+      <text>姓 名</text><input class="nameInput" type="text"></input>
+    </view>
+    <view class="phone common">
+      <text>电 话</text><input class="phoneInput" type="number"></input>
+    </view>
+    <view class="conpany common">
+      <text>公 司</text><input class="conpanyInput" type="text"></input>
+    </view>
+    <view class="address common">
+      <text>地 址</text>
+      <picker mode="region" class="addressPicker" value="{{region}}" bindchange="bindRegionChange">
+        <view class="picker" wx:if="{{region.length > 0}}">
+          {{region[0]}}-{{region[1]}}-{{region[2]}}
+        </view>
+        <view class="picker" wx:else="{{region.length > 0}}"></view>
+      </picker>
+    </view>
+  </view>
+  <view class="button">
+    <image src="./image/submit.png"></image>
+  </view>
+  <view class="logo">
+    <image src="./image/logo.png"></image>
+  </view>
+</view>

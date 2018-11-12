@@ -1,0 +1,4 @@
+<!--pages/detail/de tail.wxml-->
+<view class="main" style="background:{{imgData.bgColor}}">
+  <image class="bg img" src="{{imgData.img}}" mode='widthFix'></image>
+</view>
