@@ -2,13 +2,13 @@
   <image class="bg img" mode='widthFix' src="./image/informationBg.png"></image>
   <view class="form">
     <view class="name common">
-      <text>姓 名</text><input class="nameInput" type="text"></input>
+      <text>姓 名</text><input class="nameInput" type="text" bindblur="userName"></input>
     </view>
     <view class="phone common">
-      <text>电 话</text><input class="phoneInput" type="number"></input>
+      <text>电 话</text><input class="phoneInput" type="number" bindblur="userPhone"></input>
     </view>
     <view class="conpany common">
-      <text>公 司</text><input class="conpanyInput" type="text"></input>
+      <text>公 司</text><input class="conpanyInput" type="text" bindblur="userAddress"></input>
     </view>
     <view class="address common">
       <text>地 址</text>
@@ -20,7 +20,7 @@
       </picker>
     </view>
   </view>
-  <view class="button">
+  <view class="button" bindtap="submit">
     <image src="./image/submit.png"></image>
   </view>
   <view class="logo">
