@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -12,7 +12,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.2",
-	"appid": "wx17212829b08f8a0c",
+	"appid": "wx4309af41f6c0c638",
 	"projectname": "marketWe",
 	"debugOptions": {
 		"hidedInDevtools": []

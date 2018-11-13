@@ -60,6 +60,7 @@ Page({
       header: {
         'content-type': 'application/x-www-form-urlencoded' // 默认值
       },
+      method: 'POST',
       success (res) {
         console.log(res.data)
       }
