@@ -47,8 +47,6 @@ Page({
     } else if (wx.getStorageSync(_that.data.userphone) == _that.data.userphone) {
       _that.showModel('手机号不能重复');
       return false;
-    } else {
-      wx.setStorageSync(_that.data.userphone, _that.data.userphone);
     }
 
     // 公司
@@ -74,6 +72,7 @@ Page({
       success (res) {
         if (res.data.status == 0) {
           _that.showModel('提交成功');
+          wx.setStorageSync(_that.data.userphone, _that.data.userphone);
           _that.setData({
             username: '',
             userphone: '',
