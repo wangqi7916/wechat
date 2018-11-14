@@ -214,6 +214,9 @@ Page({
     circular: false, // 是否衔接滑动
   },
   onLoad: function() {
+    wx.setNavigationBarTitle({
+      title: '产品'
+    })
     let _that = this;
     this.gloMethods(_that.data.globalIndex, _that.data.productIndex);
 

@@ -26,6 +26,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.setNavigationBarTitle({
+      title: '案例详情'
+    })
     let _that = this;
     let data = _that.data.imgDatas
     for(let i = 0; i< data.length; i++) {

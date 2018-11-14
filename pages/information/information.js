@@ -5,6 +5,11 @@ Page({
     useraddress:'',
     region: []
   },
+  onLoad: function() {
+    wx.setNavigationBarTitle({
+      title: '咨询'
+    })
+  },
   bindRegionChange: function(e) {
     this.setData({
       region: e.detail.value

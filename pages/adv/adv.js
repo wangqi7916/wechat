@@ -8,6 +8,9 @@ Page({
     ]
   },
   onLoad: function(e) {
+    wx.setNavigationBarTitle({
+      title: '优势'
+    })
     // 动态改变scroll区域的高度
     let height = wx.getSystemInfoSync().windowHeight;
     this.setData({
