@@ -10,7 +10,8 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "市场小程序",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff"
   }
 }
