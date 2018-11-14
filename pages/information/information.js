@@ -39,6 +39,11 @@ Page({
     } else if (!(/^1[34578]\d{9}$/.test(_that.data.userphone))){
       _that.showModel('电话号码不正确');
       return false;
+    } else if (wx.getStorageSync(_that.data.userphone) == _that.data.userphone) {
+      _that.showModel('手机号不能重复');
+      return false;
+    } else {
+      wx.setStorageSync(_that.data.userphone, _that.data.userphone);
     }
 
     // 公司
@@ -62,7 +67,15 @@ Page({
       },
       method: 'POST',
       success (res) {
-        console.log(res.data)
+        if (res.data.status == 0) {
+          _that.showModel('提交成功');
+          _that.setData({
+            username: '',
+            userphone: '',
+            useraddress: '',
+            region: []
+          })
+        }
       }
     })
   },

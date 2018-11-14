@@ -2,9 +2,9 @@ Page({
   data: {
     clientHeight: '',
     detail_links: [
-      './image/case1.png',
-      './image/case2.png',
-      './image/case2.png'
+      'https://statich.yidianzixun.com/public/file/1542184054012/case1.png',
+      'https://statich.yidianzixun.com/public/file/1542184054012/case2.png',
+      'https://statich.yidianzixun.com/public/file/1542184054012/case3.png'
     ]
   },
   onLoad: function (e) {

@@ -23,7 +23,7 @@
   line-height: 62rpx;
 }
 .active{
-  background-image: url(https://statich.yidianzixun.com/public/file/1541662646077/navBg.png);
+  background-image: url(https://statich.yidianzixun.com/public/file/1542184054012/navBg.png);
   background-size:100% 100%; 
   color:#ffffff;
 }

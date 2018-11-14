@@ -24,4 +24,6 @@
 .scroll image{
   width:678rpx;
   height:455rpx;
+  margin-bottom:20rpx;
+  border-radius:10rpx;
 }

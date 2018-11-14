@@ -1,14 +1,14 @@
 <view class="main">
-  <image class="bg img" mode='widthFix' src="./image/informationBg.png"></image>
+  <image class="bg img" mode='widthFix' src="https://statich.yidianzixun.com/public/file/1542184054012/informationBg.png"></image>
   <view class="form">
     <view class="name common">
-      <text>姓 名</text><input class="nameInput" type="text" bindblur="userName"></input>
+      <text>姓 名</text><input class="nameInput" type="text" bindblur="userName" value="{{username}}"></input>
     </view>
     <view class="phone common">
-      <text>电 话</text><input class="phoneInput" type="number" bindblur="userPhone"></input>
+      <text>电 话</text><input class="phoneInput" type="number" bindblur="userPhone" value="{{userphone}}"></input>
     </view>
     <view class="conpany common">
-      <text>公 司</text><input class="conpanyInput" type="text" bindblur="userAddress"></input>
+      <text>公 司</text><input class="conpanyInput" type="text" bindblur="userAddress" value="{{useraddress}}"></input>
     </view>
     <view class="address common">
       <text>地 址</text>
@@ -21,9 +21,9 @@
     </view>
   </view>
   <view class="button" bindtap="submit">
-    <image src="./image/submit.png"></image>
+    <image src="https://statich.yidianzixun.com/public/file/1542184054012/submit.png"></image>
   </view>
   <view class="logo">
-    <image src="./image/logo.png"></image>
+    <image src="https://statich.yidianzixun.com/public/file/1542184054012/logo.png"></image>
   </view>
 </view>

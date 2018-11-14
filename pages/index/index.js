@@ -11,30 +11,26 @@ Page({
     // 切换图
     imgUrls: [
       {
-        'imgUrl': './image/bg.png',
+        'imgUrl': 'https://statich.yidianzixun.com/public/file/1542184054012/bg.png',
         'isTrue': true
-      },
-      {
-        'imgUrl': './image/bg.png',
-        'isTrue': false
       }
     ],
     // button
     nav_list: [{
         url: '../adv/adv',
-        img_url: './image/adv.png'
+        img_url: 'https://statich.yidianzixun.com/public/file/1542184054012/adv.png'
       },
       {
         url: '../case/case',
-        img_url: './image/case.png'
+        img_url: 'https://statich.yidianzixun.com/public/file/1542184054012/case.png'
       },
       {
         url: '../product/product',
-        img_url: './image/product.png'
+        img_url: 'https://statich.yidianzixun.com/public/file/1542184054012/product.png'
       },
       {
         url: '../information/information',
-        img_url: './image/information.png'
+        img_url: 'https://statich.yidianzixun.com/public/file/1542184054012/information.png'
       }]
   },
   changeImg: function(e) {
