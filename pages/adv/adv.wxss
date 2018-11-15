@@ -15,7 +15,7 @@
 }
 
 .scroll{
-  width:100%;
+  width:678rpx;
   position:absolute;
   top:170px;
   left:41rpx;

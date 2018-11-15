@@ -27,9 +27,9 @@
       </block>  
     </view>
     <view class="scroll">
-      <scroll-view scroll-y scroll-with-animation="true" style="height:{{clientHeight}}px">
+      <scroll-view scroll-y style="height:{{clientHeight}}px" scroll-top="{{scrollTop}}" bindscroll="changeScroll">
         <image src="{{productImg.imgUrl}}" style="height:{{productImg.height}}rpx"></image>
       </scroll-view>
-    </view>  
+    </view> 
   </view>  
 </view>

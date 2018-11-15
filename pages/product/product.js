@@ -10,6 +10,8 @@ Page({
     productImg: {},
     // 产品图片外层高度
     clientHeight: '',
+    // 滑动返回顶部
+    scrollTop: 0,
     // 头部导航data
     nav_list: [
       {
@@ -247,14 +249,16 @@ Page({
       }
     }
     this.setData({
-      globalList: arr
+      globalList: arr,
+      scrollTop: 0
     })
   },
   // 产品图片
   proMethods: function (gloIndex, proIndex) {
     let list = this.data.content_list[gloIndex].detailUrl;
     this.setData({
-      productImg: list[proIndex]
+      productImg: list[proIndex],
+      scrollTop: 0
     })
   },
   // 滑动顶部导航
@@ -283,7 +287,8 @@ Page({
 
     this.setData({
       nav_list: list,
-      productIndex: 0
+      productIndex: 0,
+      scrollTop: 0
     })
 
     // 初始化最下方图片index
@@ -308,7 +313,8 @@ Page({
 
     this.setData({
       nav_list: list,
-      productIndex: 0
+      productIndex: 0,
+      scrollTop: 0
     })
 
     // 初始化最下方图片index

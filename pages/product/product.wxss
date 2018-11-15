@@ -81,11 +81,11 @@
   top:20rpx;
 }
 .dot{
-  width:40rpx;
-  height:8rpx;
+  width:24rpx;
+  height:6rpx;
   background:rgba(0,0,0,0.5);
-  margin-left:10rpx;
-  border-radius: 4rpx;
+  margin-left:16rpx;
+  border-radius:4rpx;
 }
 
 .activeIsTrue{

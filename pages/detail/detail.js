@@ -36,7 +36,6 @@ Page({
         _that.setData({
           imgData: data[i]
         })
-        console.log(_that.data.imgData)
       }
     }
   },

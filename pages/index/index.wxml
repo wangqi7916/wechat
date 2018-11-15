@@ -8,7 +8,7 @@
         </swiper-item>
       </block>
     </swiper>
-    <view class="dots">
+    <view class="dots" wx:if="{{imgUrls.length > 1}}">
       <block wx:for="{{imgUrls}}" wx:key="index">
         <view class="dot {{item.isTrue ? 'activeIsTrue' : ''}}"></view>
       </block>
@@ -16,7 +16,7 @@
   </view>
   <view class="nav_button">
     <view wx:for="{{nav_list}}" wx:key="index" class="nav_option {{index % 2 !== 0 ? 'active':''}}">
-      <navigator url="{{item.url}}" hover-stay-time="10" hover-start-time='10' >
+      <navigator url="{{item.url}}" hover-stay-time="10" hover-start-time='10' hover-class="none">
         <image src="{{item.img_url}}" class="button_image"></image>
       </navigator>
     </view>
