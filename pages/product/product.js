@@ -209,7 +209,6 @@ Page({
         arr[i].isTrue = false;
       }
     }
-    console.log(arr)
     this.setData({
       globalList: arr,
       scrollTop: 0
