@@ -252,7 +252,6 @@ Page({
       scrollTop: 0,
       globalIndex: currentIndex
     })
-
     // 初始化最下方图片index
     this.proMethods(this.data.globalIndex, this.data.productIndex)
   },
@@ -279,7 +278,6 @@ Page({
       scrollTop: 0,
       globalIndex: currentIndex
     })
-
     // 初始化最下方图片index
     this.proMethods(this.data.globalIndex, this.data.productIndex)
   },
@@ -287,6 +285,6 @@ Page({
   changeImg: function(e) {
     let currentIndex = e.detail.current;
     this.gloMethods(this.data.globalIndex, currentIndex)
-    this.proMethods(this.data.productIndex, currentIndex)
+    this.proMethods(this.data.globalIndex, currentIndex)
   }
 })
