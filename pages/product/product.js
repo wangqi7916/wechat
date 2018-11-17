@@ -15,12 +15,12 @@ Page({
     // 头部导航data
     nav_list: [
       {
-        "title": '生态流量',
+        "title": '多样化功能',
         "index": 0,
         "activity": false,
       },
       {
-        "title": '信息流广告',
+        "title": '生态化产品',
         "index": 1,
         "activity": true,
       },
@@ -30,18 +30,8 @@ Page({
         "activity": false,
       }, 
       {
-        "title": '生态流量',
+        "title": '定制化产品',
         "index": 3,
-        "activity": false,
-      },
-      {
-        "title": '信息流广告',
-        "index": 4,
-        "activity": false,
-      },
-      {
-        "title": '智能化产品',
-        "index": 5,
         "activity": false,
       }
     ],
@@ -50,22 +40,46 @@ Page({
       {
         'imgUrl': [
           {
-            'outImg': 'https://statich.yidianzixun.com/public/file/1539245717671/tu1.png',
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh1.png',
             'isTrue': true
           },
           {
-            'outImg': 'https://statich.yidianzixun.com/public/file/1539245717671/tu2.png',
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh2.png',
+            'isTrue': false
+          },
+          {
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh3.png',
+            'isTrue': false
+          },
+          {
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh4.png',
+            'isTrue': false
+          },
+          {
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh5.png',
             'isTrue': false
           }
         ],
         'detailUrl': [
           {
-            'imgUrl': './image/advBg.png',
-            'height': '1206'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/dyh11.png',
+            'height': '1633'
           },
           {
-            'imgUrl': './image/caseBg.png',
-            'height': '1206'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh22.png',
+            'height': '477'
+          },
+          {
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh33.png',
+            'height': '1605'
+          },
+          {
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh44.png',
+            'height': '477'
+          },
+          {
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542361182067/dyh55.png',
+            'height': '1259'
           }
         ],
         'index': 0
@@ -73,22 +87,14 @@ Page({
       {
         'imgUrl': [
           {
-            'outImg': 'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1536832712286/3.jpg',
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542361182067/sth1.png',
             'isTrue': true
-          },
-          {
-            'outImg': 'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1536832712286/2.jpg',
-            'isTrue': false
           }
         ],
         'detailUrl': [
           {
-            'imgUrl': './image/advBg.png',
-            'height': '1206'
-          },
-          {
-            'imgUrl': './image/caseBg.png',
-            'height': '1206'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/sth11.png',
+            'height': '655'
           }
         ],
         'index': 1
@@ -96,22 +102,22 @@ Page({
       {
         'imgUrl': [
           {
-            'outImg': 'https://statich.yidianzixun.com/public/file/1539245717671/tu4.png',
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542362309201/zlh1.png',
             'isTrue': true
           },
           {
-            'outImg': 'https://statich.yidianzixun.com/public/file/1539245717671/tu2.png',
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542362309201/zlh2.png',
             'isTrue': false
           }
         ],
         'detailUrl': [
           {
-            'imgUrl': './image/advBg.png',
-            'height': '1206'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/zlh11.png',
+            'height': '673'
           },
           {
-            'imgUrl': './image/caseBg.png',
-            'height': '1206'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/zlh22.png',
+            'height': '691'
           }
         ],
         'index': 2
@@ -119,94 +125,49 @@ Page({
       {
         'imgUrl': [
           {
-            'outImg': 'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1536832712286/5.jpg',
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh1.png',
             'isTrue': true
           },
           {
-            'outImg': 'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1536832712286/4.jpg',
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh2.png',
+            'isTrue': false
+          },
+          {
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh3.png',
+            'isTrue': false
+          },
+          {
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh4.png',
+            'isTrue': false
+          },
+          {
+            'outImg': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh5.png',
             'isTrue': false
           }
         ],
         'detailUrl': [
           {
-            'imgUrl': './image/advBg.png',
-            'height': '1206'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh11.png',
+            'height': '798'
           },
           {
-            'imgUrl': './image/caseBg.png',
-            'height': '1206'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh22.png',
+            'height': '1105'
+          },
+          {
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh33.png',
+            'height': '798'
+          },
+          {
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh44.png',
+            'height': '800'
+          },
+          {
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/dzh55.png',
+            'height': '798'
           }
         ],
         'index': 3
-      }, 
-      {
-        'imgUrl': [
-          {
-            'outImg':'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1539052231462/bq4.jpg',
-            'isTrue': true
-          },
-          {
-            'outImg': 'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1536832712286/6.jpg',
-            'isTrue': false
-          }
-        ],
-        'detailUrl': [
-          {
-            'imgUrl': './image/advBg.png',
-            'height': '1206'
-          },
-          {
-            'imgUrl': './image/caseBg.png',
-            'height': '1206'
-          }
-        ],
-        'index': 4
-      }, 
-      {
-        'imgUrl': [
-          {
-            'outImg':'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1539052231462/bq1.jpg',
-            'isTrue': true
-          },
-          {
-            'outImg':'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1539052231462/bq2.jpg',
-            'isTrue': false
-          }
-        ],
-        'detailUrl': [
-          {
-            'imgUrl': './image/advBg.png',
-            'height': '1206'
-          },
-          {
-            'imgUrl': './image/caseBg.png',
-            'height': '1206'
-          }
-        ],
-        'index': 5
-      },
-      {
-        'imgUrl': [
-          {
-            'outImg':'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1539052231462/zx2.jpg',
-            'isTrue': true
-          },
-          {
-            'outImg':'https://ks3-cn-beijing.ksyun.com/static.toptest.yidianzixun.com/public/file/1539052231462/zx1.jpg',
-            'isTrue': false
-          }
-        ],
-        'detailUrl': [
-          {
-            'imgUrl': './image/advBg.png',
-            'height': '1206'
-          },
-          {
-            'imgUrl': './image/caseBg.png',
-            'height': '1206'
-          }
-        ],
-        'index': 6
       }
     ],
     // content配置参数
@@ -230,7 +191,7 @@ Page({
     query.selectViewport().scrollOffset()
     query.exec(function (res) {
       _that.setData({
-        clientHeight: (height - res[0].top)
+        clientHeight: (height - res[0].top - 30)
       })
     })
   },
@@ -248,6 +209,7 @@ Page({
         arr[i].isTrue = false;
       }
     }
+    console.log(arr)
     this.setData({
       globalList: arr,
       scrollTop: 0
@@ -288,7 +250,8 @@ Page({
     this.setData({
       nav_list: list,
       productIndex: 0,
-      scrollTop: 0
+      scrollTop: 0,
+      globalIndex: currentIndex
     })
 
     // 初始化最下方图片index
@@ -314,7 +277,8 @@ Page({
     this.setData({
       nav_list: list,
       productIndex: 0,
-      scrollTop: 0
+      scrollTop: 0,
+      globalIndex: currentIndex
     })
 
     // 初始化最下方图片index
@@ -323,7 +287,7 @@ Page({
   // 改变确定产品图片
   changeImg: function(e) {
     let currentIndex = e.detail.current;
-    this.gloMethods(this.data.productIndex, currentIndex)
-    this.proMethods(this.data.globalIndex, currentIndex)
+    this.gloMethods(this.data.globalIndex, currentIndex)
+    this.proMethods(this.data.productIndex, currentIndex)
   }
 })

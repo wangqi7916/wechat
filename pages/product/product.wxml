@@ -16,8 +16,6 @@
         </swiper-item>
       </block>
     </swiper>
-    <image class="left img" src="https://statich.yidianzixun.com/public/file/1542184054012/left.png"></image>
-    <image class="right img" src="https://statich.yidianzixun.com/public/file/1542184054012/right.png"></image>
   </view>  
   <!--产品图片-->
   <view class="content_img" id="content_img">
