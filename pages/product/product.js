@@ -93,8 +93,8 @@ Page({
         ],
         'detailUrl': [
           {
-            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542362309201/sth11.png',
-            'height': '655'
+            'imgUrl': 'https://statich.yidianzixun.com/public/file/1542701998577/sth11.png',
+            'height': '586'
           }
         ],
         'index': 1

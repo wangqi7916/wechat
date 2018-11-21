@@ -8,7 +8,7 @@ Page({
     imgDatas: [
       {
         bgColor: '#933aee',
-        img: 'https://statich.yidianzixun.com/public/file/1542188125880/detail1.png'
+        img: 'https://statich.yidianzixun.com/public/file/1542188125880/detail3.png'
       },
       {
         bgColor: '#933aee',
@@ -16,7 +16,7 @@ Page({
       },
       {
         bgColor: '#933aee',
-        img: 'https://statich.yidianzixun.com/public/file/1542188125880/detail3.png'
+        img: 'https://statich.yidianzixun.com/public/file/1542188125880/detail1.png'
       }
     ],
     imgData: {}
